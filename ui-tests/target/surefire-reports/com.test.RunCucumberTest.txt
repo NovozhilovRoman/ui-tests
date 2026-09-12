@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: com.test.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 13.89 s <<< FAILURE! -- in com.test.RunCucumberTest
+com.test.RunCucumberTest.Добавление с валидными данными -- Time elapsed: 1.060 s <<< ERROR!
+io.cucumber.datatable.CucumberDataTableException: 
+Can't convert DataTable to Map<java.lang.String, java.lang.String>.
+There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
+	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
+	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
+	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
+	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
+	at steps.DataSteps.fillForm(DataSteps.java:19)
+	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:8)
+
+com.test.RunCucumberTest.Пустой Email в форме -- Time elapsed: 1.178 s <<< ERROR!
+io.cucumber.datatable.CucumberDataTableException: 
+Can't convert DataTable to Map<java.lang.String, java.lang.String>.
+There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
+	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
+	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
+	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
+	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
+	at steps.DataSteps.fillForm(DataSteps.java:19)
+	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:20)
+
+com.test.RunCucumberTest.Пустое Имя -- Time elapsed: 1.161 s <<< ERROR!
+io.cucumber.datatable.CucumberDataTableException: 
+Can't convert DataTable to Map<java.lang.String, java.lang.String>.
+There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
+	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
+	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
+	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
+	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
+	at steps.DataSteps.fillForm(DataSteps.java:19)
+	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:30)
+
+com.test.RunCucumberTest.Без чекбоксов -- Time elapsed: 1.075 s <<< ERROR!
+io.cucumber.datatable.CucumberDataTableException: 
+Can't convert DataTable to Map<java.lang.String, java.lang.String>.
+There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
+	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
+	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
+	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
+	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
+	at steps.DataSteps.fillForm(DataSteps.java:19)
+	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:40)
+
+com.test.RunCucumberTest.Несколько чекбоксов -- Time elapsed: 1.095 s <<< ERROR!
+io.cucumber.datatable.CucumberDataTableException: 
+Can't convert DataTable to Map<java.lang.String, java.lang.String>.
+There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
+	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
+	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
+	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
+	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
+	at steps.DataSteps.fillForm(DataSteps.java:19)
+	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:52)
+

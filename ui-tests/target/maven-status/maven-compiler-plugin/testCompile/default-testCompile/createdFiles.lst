@@ -1,1 +1,4 @@
-com/test/UiTest.class
+steps/DataSteps.class
+com/test/RunCucumberTest.class
+steps/AuthSteps.class
+hooks/Hooks.class

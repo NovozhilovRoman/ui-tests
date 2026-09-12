@@ -1,4 +1,0 @@
-steps/DataSteps.class
-com/test/RunCucumberTest.class
-steps/AuthSteps.class
-hooks/Hooks.class

@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.test.RunCucumberTest" time="13.887" tests="10" errors="5" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.RunCucumberTest" time="29.616" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="webdriver.chrome.driver" value="/home/codespace/.cache/selenium/chromedriver/linux64/152.0.7977.82/chromedriver"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/workspaces/codespaces-blank/ui-tests/target/test-classes:/workspaces/codespaces-blank/ui-tests/target/classes:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/home/codespace/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/home/codespace/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/home/codespace/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/home/codespace/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/codespace/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/codespace/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/codespace/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/home/codespace/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/home/codespace/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/home/codespace/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/home/codespace/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/home/codespace/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/home/codespace/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/home/codespace/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/home/codespace/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/home/codespace/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/codespace/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/codespace/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/codespace/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/codespace/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/home/codespace/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/codespace/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/home/codespace/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/codespace/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/codespace/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/home/codespace/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/codespace/.m2/repository/org/junit/vintage/junit-vintage-engine/5.10.0/junit-vintage-engine-5.10.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="java.class.path" value="/workspaces/codespaces-blank/ui-tests/target/test-classes:/workspaces/codespaces-blank/ui-tests/target/classes:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/home/codespace/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/home/codespace/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/home/codespace/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/home/codespace/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/codespace/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/codespace/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/codespace/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/home/codespace/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/home/codespace/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/home/codespace/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/home/codespace/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2.jar:/home/codespace/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/home/codespace/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/home/codespace/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/home/codespace/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/home/codespace/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/codespace/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/codespace/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/codespace/.m2/repository/org/junit/vintage/junit-vintage-engine/5.10.0/junit-vintage-engine-5.10.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/home/codespace/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/codespace/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/codespace/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/home/codespace/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/codespace/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/codespace/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/home/codespace/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/home/codespace/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/home/codespace/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.24.0/allure-cucumber7-jvm-2.24.0.jar:/home/codespace/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/home/codespace/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/home/codespace/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/home/codespace/.m2/repository/io/qameta/allure/allure-junit4/2.24.0/allure-junit4-2.24.0.jar:/home/codespace/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:"/>
     <property name="java.vm.vendor" value="Microsoft"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://www.microsoft.com"/>
     <property name="user.timezone" value="Etc/UTC"/>
     <property name="os.name" value="Linux"/>
     <property name="java.vm.specification.version" value="25"/>
+    <property name="webdriver.chrome.silentOutput" value="true"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/25.0.2-ms/lib"/>
-    <property name="sun.java.command" value="/workspaces/codespaces-blank/ui-tests/target/surefire/surefirebooter-20260912091117836_3.jar /workspaces/codespaces-blank/ui-tests/target/surefire 2026-09-12T09-11-17_718-jvmRun1 surefire-20260912091117836_1tmp surefire_0-20260912091117836_2tmp"/>
+    <property name="sun.java.command" value="/workspaces/codespaces-blank/ui-tests/target/surefire/surefirebooter-20260912122732327_3.jar /workspaces/codespaces-blank/ui-tests/target/surefire 2026-09-12T12-27-31_942-jvmRun1 surefire-20260912122732327_1tmp surefire_0-20260912122732327_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/workspaces/codespaces-blank/ui-tests/target/test-classes:/workspaces/codespaces-blank/ui-tests/target/classes:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/home/codespace/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/home/codespace/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/home/codespace/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/home/codespace/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/codespace/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/codespace/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/codespace/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/home/codespace/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/home/codespace/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/home/codespace/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/home/codespace/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/home/codespace/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/home/codespace/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/home/codespace/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/home/codespace/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/home/codespace/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/codespace/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/codespace/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/codespace/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/codespace/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/home/codespace/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/codespace/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/home/codespace/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/codespace/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/codespace/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/home/codespace/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/codespace/.m2/repository/org/junit/vintage/junit-vintage-engine/5.10.0/junit-vintage-engine-5.10.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="surefire.test.class.path" value="/workspaces/codespaces-blank/ui-tests/target/test-classes:/workspaces/codespaces-blank/ui-tests/target/classes:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-java/4.15.0/selenium-java-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-api/4.15.0/selenium-api-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.15.0/selenium-chrome-driver-4.15.0.jar:/home/codespace/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.15.0/selenium-chromium-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-json/4.15.0/selenium-json-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.15.0/selenium-manager-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v117/4.15.0/selenium-devtools-v117-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v118/4.15.0/selenium-devtools-v118-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v119/4.15.0/selenium-devtools-v119-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.15.0/selenium-devtools-v85-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.15.0/selenium-edge-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.15.0/selenium-firefox-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-http/4.15.0/selenium-http-4.15.0.jar:/home/codespace/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.15.0/selenium-ie-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.15.0/selenium-remote-driver-4.15.0.jar:/home/codespace/.m2/repository/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar:/home/codespace/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/codespace/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/codespace/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/codespace/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/home/codespace/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/home/codespace/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-api/1.28.0/opentelemetry-api-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-context/1.28.0/opentelemetry-context-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.28.0/opentelemetry-exporter-logging-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.28.0/opentelemetry-sdk-metrics-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.28.0-alpha/opentelemetry-extension-incubator-1.28.0-alpha.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.28.0/opentelemetry-sdk-logs-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.28.0/opentelemetry-sdk-common-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.28.0/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.28.0/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.28.0-alpha/opentelemetry-api-events-1.28.0-alpha.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.28.0/opentelemetry-sdk-trace-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.28.0/opentelemetry-sdk-1.28.0.jar:/home/codespace/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.28.0-alpha/opentelemetry-semconv-1.28.0-alpha.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-os/4.15.0/selenium-os-4.15.0.jar:/home/codespace/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.15.0/selenium-safari-driver-4.15.0.jar:/home/codespace/.m2/repository/org/seleniumhq/selenium/selenium-support/4.15.0/selenium-support-4.15.0.jar:/home/codespace/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2.jar:/home/codespace/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java/3.3.4/docker-java-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-core/3.3.4/docker-java-core-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-api/3.3.4/docker-java-api-3.3.4.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/home/codespace/.m2/repository/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/home/codespace/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/home/codespace/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/home/codespace/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.4/docker-java-transport-httpclient5-3.3.4.jar:/home/codespace/.m2/repository/com/github/docker-java/docker-java-transport/3.3.4/docker-java-transport-3.3.4.jar:/home/codespace/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/home/codespace/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/codespace/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/codespace/.m2/repository/org/apache/commons/commons-compress/1.24.0/commons-compress-1.24.0.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/home/codespace/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/codespace/.m2/repository/org/junit/vintage/junit-vintage-engine/5.10.0/junit-vintage-engine-5.10.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/home/codespace/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/codespace/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/codespace/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/codespace/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/home/codespace/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/home/codespace/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/codespace/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/codespace/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/home/codespace/.m2/repository/io/cucumber/cucumber-junit/7.15.0/cucumber-junit-7.15.0.jar:/home/codespace/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/home/codespace/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/home/codespace/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/home/codespace/.m2/repository/io/qameta/allure/allure-cucumber7-jvm/2.24.0/allure-cucumber7-jvm-2.24.0.jar:/home/codespace/.m2/repository/io/qameta/allure/allure-java-commons/2.24.0/allure-java-commons-2.24.0.jar:/home/codespace/.m2/repository/io/qameta/allure/allure-model/2.24.0/allure-model-2.24.0.jar:/home/codespace/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/home/codespace/.m2/repository/io/qameta/allure/allure-junit4/2.24.0/allure-junit4-2.24.0.jar:/home/codespace/.m2/repository/io/qameta/allure/allure-test-filter/2.24.0/allure-test-filter-2.24.0.jar:"/>
+    <property name="allure.results.directory" value="/workspaces/codespaces-blank/ui-tests/target/allure-results"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/codespace"/>
     <property name="user.language" value="en"/>
@@ -26,9 +28,9 @@
     <property name="basedir" value="/workspaces/codespaces-blank/ui-tests"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/codespaces-blank/ui-tests/target/surefire/surefirebooter-20260912091117836_3.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/workspaces/codespaces-blank/ui-tests/target/surefire/surefirebooter-20260912122732327_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -56,268 +58,364 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="Вход с валидными данными" classname="com.test.RunCucumberTest" time="3.035">
+  <testcase name="Вход с валидными данными" classname="Авторизация" time="2.882">
     <system-out><![CDATA[
 Сценарий: Вход с валидными данными                           &amp#27;[90m# src/test/resources/features/auth.feature:4&amp#27;[0m
+12:27:34 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:36 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
   &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                          &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:36 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'test'
   &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m        &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:36 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
   &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                       &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:27:36 INFO  steps.AuthSteps - >>> Проверяю страницу с формой данных
+12:27:36 INFO  steps.AuthSteps - >>> Страница с данными отобразилась
   &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается страница с формой данных&amp#27;[0m &amp#27;[90m# steps.AuthSteps.seeDataPage()&amp#27;[0m
+12:27:36 INFO  hooks.Hooks - >>> Закрываю браузер
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Sep 12, 2026 9:11:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sep 12, 2026 12:27:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 152
-Sep 12, 2026 9:11:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Sep 12, 2026 12:27:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 152.0.7977.82. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Пустой email" classname="com.test.RunCucumberTest" time="1.344">
+  <testcase name="Пустой email" classname="Авторизация" time="1.519">
     <system-out><![CDATA[
 Сценарий: Пустой email                                              &amp#27;[90m# src/test/resources/features/auth.feature:10&amp#27;[0m
+12:27:37 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:37 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
   &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                                 &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:38 INFO  steps.AuthSteps - >>> Ввожу логин: '' и пароль: 'test'
   &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m                             &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:38 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
   &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                              &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:27:38 INFO  steps.AuthSteps - >>> Проверяю ошибку: 'Неверный формат E-Mail'
+12:27:38 INFO  steps.AuthSteps - >>> Фактическая ошибка: 'Неверный формат E-Mail'
   &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается ошибка &amp#27;[0m&amp#27;[32m&amp#27;[1m"Неверный формат E-Mail"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.seeError(java.lang.String)&amp#27;[0m
+12:27:38 INFO  hooks.Hooks - >>> Закрываю браузер
 ]]></system-out>
-    <system-err><![CDATA[Sep 12, 2026 9:11:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 152
-Sep 12, 2026 9:11:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 152.0.7977.82. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="Невалидный email" classname="com.test.RunCucumberTest" time="1.262">
+  <testcase name="Невалидный email" classname="Авторизация" time="1.387">
     <system-out><![CDATA[
 Сценарий: Невалидный email                                          &amp#27;[90m# src/test/resources/features/auth.feature:16&amp#27;[0m
+12:27:38 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:39 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
   &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                                 &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:39 INFO  steps.AuthSteps - >>> Ввожу логин: 'wrong-email' и пароль: 'test'
   &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrong-email"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m                  &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:39 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
   &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                              &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:27:39 INFO  steps.AuthSteps - >>> Проверяю ошибку: 'Неверный формат E-Mail'
+12:27:39 INFO  steps.AuthSteps - >>> Фактическая ошибка: 'Неверный формат E-Mail'
   &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается ошибка &amp#27;[0m&amp#27;[32m&amp#27;[1m"Неверный формат E-Mail"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.seeError(java.lang.String)&amp#27;[0m
+12:27:39 INFO  hooks.Hooks - >>> Закрываю браузер
 ]]></system-out>
-    <system-err><![CDATA[Sep 12, 2026 9:11:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 152
-Sep 12, 2026 9:11:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 152.0.7977.82. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="Неверный пароль" classname="com.test.RunCucumberTest" time="1.264">
+  <testcase name="Неверный пароль" classname="Авторизация" time="1.388">
     <system-out><![CDATA[
 Сценарий: Неверный пароль                                               &amp#27;[90m# src/test/resources/features/auth.feature:22&amp#27;[0m
+12:27:40 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:40 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
   &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                                     &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:40 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'wrong'
   &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"wrong"&amp#27;[0m                  &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:41 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
   &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                                  &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:27:41 INFO  steps.AuthSteps - >>> Проверяю ошибку: 'Неверный E-Mail или пароль'
+12:27:41 INFO  steps.AuthSteps - >>> Фактическая ошибка: 'Неверный E-Mail или пароль'
   &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается ошибка &amp#27;[0m&amp#27;[32m&amp#27;[1m"Неверный E-Mail или пароль"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.seeError(java.lang.String)&amp#27;[0m
+12:27:41 INFO  hooks.Hooks - >>> Закрываю браузер
 ]]></system-out>
-    <system-err><![CDATA[Sep 12, 2026 9:11:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 152
-Sep 12, 2026 9:11:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 152.0.7977.82. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="Пустой пароль" classname="com.test.RunCucumberTest" time="1.141">
+  <testcase name="Пустой пароль" classname="Авторизация" time="1.333">
     <system-out><![CDATA[
 Сценарий: Пустой пароль                                                 &amp#27;[90m# src/test/resources/features/auth.feature:28&amp#27;[0m
+12:27:41 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:42 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
   &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                                     &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:42 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: ''
   &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                       &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:42 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
   &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                                  &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:27:42 INFO  steps.AuthSteps - >>> Проверяю ошибку: 'Неверный E-Mail или пароль'
+12:27:42 INFO  steps.AuthSteps - >>> Фактическая ошибка: 'Неверный E-Mail или пароль'
   &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается ошибка &amp#27;[0m&amp#27;[32m&amp#27;[1m"Неверный E-Mail или пароль"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.seeError(java.lang.String)&amp#27;[0m
+12:27:42 INFO  hooks.Hooks - >>> Закрываю браузер
 ]]></system-out>
-    <system-err><![CDATA[Sep 12, 2026 9:11:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 152
-Sep 12, 2026 9:11:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 152.0.7977.82. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="Добавление с валидными данными" classname="com.test.RunCucumberTest" time="1.06">
-    <error message="Can&apos;t convert DataTable to Map&lt;java.lang.String, java.lang.String&gt;.&#10;There is more then one value per key. Did you mean to transform to Map&lt;java.lang.String, List&lt;java.lang.String&gt;&gt; instead?" type="io.cucumber.datatable.CucumberDataTableException"><![CDATA[io.cucumber.datatable.CucumberDataTableException: 
-Can't convert DataTable to Map<java.lang.String, java.lang.String>.
-There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
-	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
-	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
-	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
-	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
-	at steps.DataSteps.fillForm(DataSteps.java:19)
-	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:8)
-]]></error>
+  <testcase name="Email с пробелами" classname="Авторизация" time="1.529">
+    <system-out><![CDATA[
+Сценарий: Email с пробелами                                             &amp#27;[90m# src/test/resources/features/auth.feature:34&amp#27;[0m
+12:27:42 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:43 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
+  &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                                     &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:43 INFO  steps.AuthSteps - >>> Ввожу логин: ' test@protei.ru ' и пароль: 'test'
+  &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m" test@protei.ru "&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m                 &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:43 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                                  &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:27:44 INFO  steps.AuthSteps - >>> Проверяю ошибку: 'Неверный E-Mail или пароль'
+12:27:44 INFO  steps.AuthSteps - >>> Фактическая ошибка: 'Неверный E-Mail или пароль'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается ошибка &amp#27;[0m&amp#27;[32m&amp#27;[1m"Неверный E-Mail или пароль"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.seeError(java.lang.String)&amp#27;[0m
+12:27:44 INFO  hooks.Hooks - >>> Закрываю браузер
+]]></system-out>
+  </testcase>
+  <testcase name="Email без домена" classname="Авторизация" time="1.231">
+    <system-out><![CDATA[
+Сценарий: Email без домена                                          &amp#27;[90m# src/test/resources/features/auth.feature:40&amp#27;[0m
+12:27:44 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:44 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
+  &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                                 &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:45 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@' и пароль: 'test'
+  &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m                        &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:45 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                              &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:27:45 INFO  steps.AuthSteps - >>> Проверяю ошибку: 'Неверный формат E-Mail'
+12:27:45 INFO  steps.AuthSteps - >>> Фактическая ошибка: 'Неверный формат E-Mail'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается ошибка &amp#27;[0m&amp#27;[32m&amp#27;[1m"Неверный формат E-Mail"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.seeError(java.lang.String)&amp#27;[0m
+12:27:45 INFO  hooks.Hooks - >>> Закрываю браузер
+]]></system-out>
+  </testcase>
+  <testcase name="Email без собаки" classname="Авторизация" time="1.385">
+    <system-out><![CDATA[
+Сценарий: Email без собаки                                          &amp#27;[90m# src/test/resources/features/auth.feature:46&amp#27;[0m
+12:27:45 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:46 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
+  &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                                 &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:46 INFO  steps.AuthSteps - >>> Ввожу логин: 'test.ru' и пароль: 'test'
+  &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m                      &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:46 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                              &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:27:46 INFO  steps.AuthSteps - >>> Проверяю ошибку: 'Неверный формат E-Mail'
+12:27:46 INFO  steps.AuthSteps - >>> Фактическая ошибка: 'Неверный формат E-Mail'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается ошибка &amp#27;[0m&amp#27;[32m&amp#27;[1m"Неверный формат E-Mail"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.seeError(java.lang.String)&amp#27;[0m
+12:27:46 INFO  hooks.Hooks - >>> Закрываю браузер
+]]></system-out>
+  </testcase>
+  <testcase name="Пароль в верхнем регистре" classname="Авторизация" time="1.419">
+    <system-out><![CDATA[
+Сценарий: Пароль в верхнем регистре                                     &amp#27;[90m# src/test/resources/features/auth.feature:52&amp#27;[0m
+12:27:46 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:47 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
+  &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                                     &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:47 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'TEST'
+  &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"TEST"&amp#27;[0m                   &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:48 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                                  &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:27:48 INFO  steps.AuthSteps - >>> Проверяю ошибку: 'Неверный E-Mail или пароль'
+12:27:48 INFO  steps.AuthSteps - >>> Фактическая ошибка: 'Неверный E-Mail или пароль'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается ошибка &amp#27;[0m&amp#27;[32m&amp#27;[1m"Неверный E-Mail или пароль"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.seeError(java.lang.String)&amp#27;[0m
+12:27:48 INFO  hooks.Hooks - >>> Закрываю браузер
+]]></system-out>
+  </testcase>
+  <testcase name="Добавление с валидными данными" classname="Добавление данных" time="1.87">
     <system-out><![CDATA[
 Сценарий: Добавление с валидными данными              &amp#27;[90m# src/test/resources/features/data.feature:4&amp#27;[0m
+12:27:48 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:48 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
   &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                   &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:49 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'test'
   &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:49 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
   &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
-  &amp#27;[31mИ &amp#27;[0m&amp#27;[31mзаполнить форму:&amp#27;[0m                                  &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
+12:27:49 INFO  steps.DataSteps - >>> Заполняю форму: Email='test@protei.ru', Имя='Иван Петров', Пол='Мужской', Выбор1='1.1', Выбор2='2.2'
+12:27:49 INFO  steps.DataSteps - >>> Фактическое значение поля dataName: 'Иван Петров'
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mзаполнить форму:&amp#27;[0m                                  &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
     | Email          | Имя         | Пол     | Выбор 1 | Выбор 2 |
     | test@protei.ru | Иван Петров | Мужской | 1.1     | 2.2     |
-      &amp#27;[31mio.cucumber.datatable.CucumberDataTableException: Can't convert DataTable to Map<java.lang.String, java.lang.String>.
-There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
-	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
-	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
-	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
-	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
-	at steps.DataSteps.fillForm(DataSteps.java:19)
-	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:8)
-&amp#27;[0m
-  &amp#27;[36mИ &amp#27;[0m&amp#27;[36mнажать кнопку Добавить&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
-  &amp#27;[36mТогда &amp#27;[0m&amp#27;[36mпроверить, что в таблице есть запись:&amp#27;[0m         &amp#27;[90m# steps.DataSteps.checkTable(io.cucumber.datatable.DataTable)&amp#27;[0m
+12:27:49 INFO  steps.DataSteps - >>> Нажимаю кнопку Добавить
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Добавить&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
+12:27:50 INFO  steps.DataSteps - >>> Проверяю, что в таблице есть запись: Email='test@protei.ru', Имя='Иван Петров', Пол='Мужской'
+12:27:50 INFO  steps.DataSteps - >>> Фактическая строка в таблице: 'test@protei.ru Иван Петров Мужской 1.1 2.2'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что в таблице есть запись:&amp#27;[0m         &amp#27;[90m# steps.DataSteps.checkTable(io.cucumber.datatable.DataTable)&amp#27;[0m
     | Email          | Имя         | Пол     |
     | test@protei.ru | Иван Петров | Мужской |
+12:27:50 INFO  hooks.Hooks - >>> Закрываю браузер
 ]]></system-out>
-    <system-err><![CDATA[Sep 12, 2026 9:11:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 152
-Sep 12, 2026 9:11:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 152.0.7977.82. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="Пустой Email в форме" classname="com.test.RunCucumberTest" time="1.178">
-    <error message="Can&apos;t convert DataTable to Map&lt;java.lang.String, java.lang.String&gt;.&#10;There is more then one value per key. Did you mean to transform to Map&lt;java.lang.String, List&lt;java.lang.String&gt;&gt; instead?" type="io.cucumber.datatable.CucumberDataTableException"><![CDATA[io.cucumber.datatable.CucumberDataTableException: 
-Can't convert DataTable to Map<java.lang.String, java.lang.String>.
-There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
-	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
-	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
-	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
-	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
-	at steps.DataSteps.fillForm(DataSteps.java:19)
-	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:20)
-]]></error>
+  <testcase name="Пустой Email в форме" classname="Добавление данных" time="1.555">
     <system-out><![CDATA[
 Сценарий: Пустой Email в форме                                            &amp#27;[90m# src/test/resources/features/data.feature:16&amp#27;[0m
+12:27:50 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:50 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
   &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                                       &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:50 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'test'
   &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m                     &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:51 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
   &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                                    &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
-  &amp#27;[31mИ &amp#27;[0m&amp#27;[31mзаполнить форму:&amp#27;[0m                                                      &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
+12:27:51 INFO  steps.DataSteps - >>> Заполняю форму: Email='', Имя='Иван', Пол='Мужской', Выбор1='null', Выбор2='null'
+12:27:51 INFO  steps.DataSteps - >>> Фактическое значение поля dataName: 'Иван'
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mзаполнить форму:&amp#27;[0m                                                      &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
     | Email   | Имя  | Пол     |
     | [empty] | Иван | Мужской |
-      &amp#27;[31mio.cucumber.datatable.CucumberDataTableException: Can't convert DataTable to Map<java.lang.String, java.lang.String>.
-There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
-	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
-	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
-	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
-	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
-	at steps.DataSteps.fillForm(DataSteps.java:19)
-	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:20)
-&amp#27;[0m
-  &amp#27;[36mИ &amp#27;[0m&amp#27;[36mнажать кнопку Добавить&amp#27;[0m                                                &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
-  &amp#27;[36mТогда &amp#27;[0m&amp#27;[36mпроверить, что отображается ошибка формы &amp#27;[0m&amp#27;[36m&amp#27;[1m"Неверный формат E-Mail"&amp#27;[0m &amp#27;[90m# steps.DataSteps.seeFormError(java.lang.String)&amp#27;[0m
+12:27:51 INFO  steps.DataSteps - >>> Нажимаю кнопку Добавить
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Добавить&amp#27;[0m                                                &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
+12:27:51 INFO  steps.DataSteps - >>> Проверяю ошибку формы: 'Неверный формат E-Mail'
+12:27:51 INFO  steps.DataSteps - >>> Фактическая ошибка: 'Неверный формат E-Mail'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается ошибка формы &amp#27;[0m&amp#27;[32m&amp#27;[1m"Неверный формат E-Mail"&amp#27;[0m &amp#27;[90m# steps.DataSteps.seeFormError(java.lang.String)&amp#27;[0m
+12:27:51 INFO  hooks.Hooks - >>> Закрываю браузер
 ]]></system-out>
-    <system-err><![CDATA[Sep 12, 2026 9:11:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 152
-Sep 12, 2026 9:11:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 152.0.7977.82. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="Пустое Имя" classname="com.test.RunCucumberTest" time="1.161">
-    <error message="Can&apos;t convert DataTable to Map&lt;java.lang.String, java.lang.String&gt;.&#10;There is more then one value per key. Did you mean to transform to Map&lt;java.lang.String, List&lt;java.lang.String&gt;&gt; instead?" type="io.cucumber.datatable.CucumberDataTableException"><![CDATA[io.cucumber.datatable.CucumberDataTableException: 
-Can't convert DataTable to Map<java.lang.String, java.lang.String>.
-There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
-	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
-	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
-	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
-	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
-	at steps.DataSteps.fillForm(DataSteps.java:19)
-	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:30)
-]]></error>
+  <testcase name="Пустое Имя" classname="Добавление данных" time="1.855">
     <system-out><![CDATA[
 Сценарий: Пустое Имя                                                             &amp#27;[90m# src/test/resources/features/data.feature:26&amp#27;[0m
+12:27:51 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:52 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
   &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                                              &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:52 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'test'
   &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m                            &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:52 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
   &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                                           &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
-  &amp#27;[31mИ &amp#27;[0m&amp#27;[31mзаполнить форму:&amp#27;[0m                                                             &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
+12:27:52 INFO  steps.DataSteps - >>> Заполняю форму: Email='test@protei.ru', Имя='', Пол='Мужской', Выбор1='null', Выбор2='null'
+12:27:53 INFO  steps.DataSteps - >>> Фактическое значение поля dataName: ''
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mзаполнить форму:&amp#27;[0m                                                             &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
     | Email          | Имя     | Пол     |
     | test@protei.ru | [empty] | Мужской |
-      &amp#27;[31mio.cucumber.datatable.CucumberDataTableException: Can't convert DataTable to Map<java.lang.String, java.lang.String>.
-There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
-	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
-	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
-	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
-	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
-	at steps.DataSteps.fillForm(DataSteps.java:19)
-	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:30)
-&amp#27;[0m
-  &amp#27;[36mИ &amp#27;[0m&amp#27;[36mнажать кнопку Добавить&amp#27;[0m                                                       &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
-  &amp#27;[36mТогда &amp#27;[0m&amp#27;[36mпроверить, что отображается ошибка формы &amp#27;[0m&amp#27;[36m&amp#27;[1m"Поле имя не может быть пустым"&amp#27;[0m &amp#27;[90m# steps.DataSteps.seeFormError(java.lang.String)&amp#27;[0m
+12:27:53 INFO  steps.DataSteps - >>> Нажимаю кнопку Добавить
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Добавить&amp#27;[0m                                                       &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
+12:27:53 INFO  steps.DataSteps - >>> Проверяю ошибку формы: 'Поле имя не может быть пустым'
+12:27:53 INFO  steps.DataSteps - >>> Фактическая ошибка: 'Поле имя не может быть пустым'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что отображается ошибка формы &amp#27;[0m&amp#27;[32m&amp#27;[1m"Поле имя не может быть пустым"&amp#27;[0m &amp#27;[90m# steps.DataSteps.seeFormError(java.lang.String)&amp#27;[0m
+12:27:53 INFO  hooks.Hooks - >>> Закрываю браузер
 ]]></system-out>
-    <system-err><![CDATA[Sep 12, 2026 9:11:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 152
-Sep 12, 2026 9:11:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 152.0.7977.82. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="Без чекбоксов" classname="com.test.RunCucumberTest" time="1.075">
-    <error message="Can&apos;t convert DataTable to Map&lt;java.lang.String, java.lang.String&gt;.&#10;There is more then one value per key. Did you mean to transform to Map&lt;java.lang.String, List&lt;java.lang.String&gt;&gt; instead?" type="io.cucumber.datatable.CucumberDataTableException"><![CDATA[io.cucumber.datatable.CucumberDataTableException: 
-Can't convert DataTable to Map<java.lang.String, java.lang.String>.
-There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
-	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
-	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
-	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
-	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
-	at steps.DataSteps.fillForm(DataSteps.java:19)
-	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:40)
-]]></error>
+  <testcase name="Без чекбоксов" classname="Добавление данных" time="1.891">
     <system-out><![CDATA[
 Сценарий: Без чекбоксов                               &amp#27;[90m# src/test/resources/features/data.feature:36&amp#27;[0m
+12:27:53 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:54 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
   &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                   &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:54 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'test'
   &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:54 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
   &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
-  &amp#27;[31mИ &amp#27;[0m&amp#27;[31mзаполнить форму:&amp#27;[0m                                  &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
+12:27:54 INFO  steps.DataSteps - >>> Заполняю форму: Email='test@protei.ru', Имя='Сергей', Пол='Женский', Выбор1='null', Выбор2='2.1'
+12:27:55 INFO  steps.DataSteps - >>> Фактическое значение поля dataName: 'Сергей'
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mзаполнить форму:&amp#27;[0m                                  &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
     | Email          | Имя    | Пол     | Выбор 1 | Выбор 2 |
     | test@protei.ru | Сергей | Женский | [empty] | 2.1     |
-      &amp#27;[31mio.cucumber.datatable.CucumberDataTableException: Can't convert DataTable to Map<java.lang.String, java.lang.String>.
-There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
-	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
-	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
-	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
-	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
-	at steps.DataSteps.fillForm(DataSteps.java:19)
-	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:40)
-&amp#27;[0m
-  &amp#27;[36mИ &amp#27;[0m&amp#27;[36mнажать кнопку Добавить&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
-  &amp#27;[36mТогда &amp#27;[0m&amp#27;[36mпроверить, что в таблице есть запись:&amp#27;[0m         &amp#27;[90m# steps.DataSteps.checkTable(io.cucumber.datatable.DataTable)&amp#27;[0m
+12:27:55 INFO  steps.DataSteps - >>> Нажимаю кнопку Добавить
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Добавить&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
+12:27:55 INFO  steps.DataSteps - >>> Проверяю, что в таблице есть запись: Email='test@protei.ru', Имя='Сергей', Пол='Женский'
+12:27:55 INFO  steps.DataSteps - >>> Фактическая строка в таблице: 'test@protei.ru Сергей Женский Нет 2.1'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что в таблице есть запись:&amp#27;[0m         &amp#27;[90m# steps.DataSteps.checkTable(io.cucumber.datatable.DataTable)&amp#27;[0m
     | Email          | Имя    | Пол     |
     | test@protei.ru | Сергей | Женский |
+12:27:55 INFO  hooks.Hooks - >>> Закрываю браузер
 ]]></system-out>
-    <system-err><![CDATA[Sep 12, 2026 9:11:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 152
-Sep 12, 2026 9:11:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 152.0.7977.82. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
   </testcase>
-  <testcase name="Несколько чекбоксов" classname="com.test.RunCucumberTest" time="1.095">
-    <error message="Can&apos;t convert DataTable to Map&lt;java.lang.String, java.lang.String&gt;.&#10;There is more then one value per key. Did you mean to transform to Map&lt;java.lang.String, List&lt;java.lang.String&gt;&gt; instead?" type="io.cucumber.datatable.CucumberDataTableException"><![CDATA[io.cucumber.datatable.CucumberDataTableException: 
-Can't convert DataTable to Map<java.lang.String, java.lang.String>.
-There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
-	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
-	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
-	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
-	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
-	at steps.DataSteps.fillForm(DataSteps.java:19)
-	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:52)
-]]></error>
+  <testcase name="Несколько чекбоксов" classname="Добавление данных" time="1.949">
     <system-out><![CDATA[
 Сценарий: Несколько чекбоксов                         &amp#27;[90m# src/test/resources/features/data.feature:48&amp#27;[0m
+12:27:55 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:56 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
   &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                   &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:56 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'test'
   &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:56 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
   &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
-  &amp#27;[31mИ &amp#27;[0m&amp#27;[31mзаполнить форму:&amp#27;[0m                                  &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
+12:27:56 INFO  steps.DataSteps - >>> Заполняю форму: Email='test@protei.ru', Имя='Анна', Пол='Женский', Выбор1='1.1', Выбор2='2.3'
+12:27:57 INFO  steps.DataSteps - >>> Фактическое значение поля dataName: 'Анна'
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mзаполнить форму:&amp#27;[0m                                  &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
     | Email          | Имя  | Пол     | Выбор 1 | Выбор 2 |
     | test@protei.ru | Анна | Женский | 1.1     | 2.3     |
-      &amp#27;[31mio.cucumber.datatable.CucumberDataTableException: Can't convert DataTable to Map<java.lang.String, java.lang.String>.
-There is more then one value per key. Did you mean to transform to Map<java.lang.String, List<java.lang.String>> instead?
-	at io.cucumber.datatable.CucumberDataTableException.cantConvertToMap(CucumberDataTableException.java:27)
-	at io.cucumber.datatable.CucumberDataTableException.keyValueMismatchException(CucumberDataTableException.java:47)
-	at io.cucumber.datatable.DataTableTypeRegistryTableConverter.toMap(DataTableTypeRegistryTableConverter.java:282)
-	at io.cucumber.datatable.DataTable.asMap(DataTable.java:278)
-	at steps.DataSteps.fillForm(DataSteps.java:19)
-	at ✽.заполнить форму:(file:///workspaces/codespaces-blank/ui-tests/src/test/resources/features/data.feature:52)
-&amp#27;[0m
-  &amp#27;[36mИ &amp#27;[0m&amp#27;[36mнажать кнопку Добавить&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
-  &amp#27;[36mТогда &amp#27;[0m&amp#27;[36mпроверить, что в таблице есть запись:&amp#27;[0m         &amp#27;[90m# steps.DataSteps.checkTable(io.cucumber.datatable.DataTable)&amp#27;[0m
+12:27:57 INFO  steps.DataSteps - >>> Нажимаю кнопку Добавить
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Добавить&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
+12:27:57 INFO  steps.DataSteps - >>> Проверяю, что в таблице есть запись: Email='test@protei.ru', Имя='Анна', Пол='Женский'
+12:27:57 INFO  steps.DataSteps - >>> Фактическая строка в таблице: 'test@protei.ru Анна Женский 1.1 2.3'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что в таблице есть запись:&amp#27;[0m         &amp#27;[90m# steps.DataSteps.checkTable(io.cucumber.datatable.DataTable)&amp#27;[0m
     | Email          | Имя  | Пол     |
     | test@protei.ru | Анна | Женский |
+12:27:57 INFO  hooks.Hooks - >>> Закрываю браузер
 ]]></system-out>
-    <system-err><![CDATA[Sep 12, 2026 9:11:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 152
-Sep 12, 2026 9:11:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 152.0.7977.82. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
+  </testcase>
+  <testcase name="Добавление двух записей" classname="Добавление данных" time="2.204">
+    <system-out><![CDATA[
+Сценарий: Добавление двух записей                     &amp#27;[90m# src/test/resources/features/data.feature:60&amp#27;[0m
+12:27:57 INFO  hooks.Hooks - >>> Запускаю браузер
+12:27:58 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
+  &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                   &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:27:58 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'test'
+  &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:27:58 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:27:58 INFO  steps.DataSteps - >>> Заполняю форму: Email='test@protei.ru', Имя='Иван', Пол='Мужской', Выбор1='1.1', Выбор2='2.1'
+12:27:58 INFO  steps.DataSteps - >>> Фактическое значение поля dataName: 'Иван'
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mзаполнить форму:&amp#27;[0m                                  &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email          | Имя  | Пол     | Выбор 1 | Выбор 2 |
+    | test@protei.ru | Иван | Мужской | 1.1     | 2.1     |
+12:27:58 INFO  steps.DataSteps - >>> Нажимаю кнопку Добавить
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Добавить&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
+12:27:59 INFO  steps.DataSteps - >>> Проверяю, что в таблице есть запись: Email='test@protei.ru', Имя='Иван', Пол='Мужской'
+12:27:59 INFO  steps.DataSteps - >>> Фактическая строка в таблице: 'test@protei.ru Иван Мужской 1.1 2.1'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что в таблице есть запись:&amp#27;[0m         &amp#27;[90m# steps.DataSteps.checkTable(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email          | Имя  | Пол     |
+    | test@protei.ru | Иван | Мужской |
+12:27:59 INFO  steps.DataSteps - >>> Закрываю модальное окно
+12:27:59 INFO  steps.DataSteps - >>> Модальное окно закрыто
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mзакрыть модальное окно&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.closeModal()&amp#27;[0m
+12:27:59 INFO  steps.DataSteps - >>> Заполняю форму: Email='test2@protei.ru', Имя='Анна', Пол='Женский', Выбор1='1.2', Выбор2='2.3'
+12:27:59 INFO  steps.DataSteps - >>> Фактическое значение поля dataName: 'Анна'
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mзаполнить форму:&amp#27;[0m                                  &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email           | Имя  | Пол     | Выбор 1 | Выбор 2 |
+    | test2@protei.ru | Анна | Женский | 1.2     | 2.3     |
+12:27:59 INFO  steps.DataSteps - >>> Нажимаю кнопку Добавить
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Добавить&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
+12:27:59 INFO  steps.DataSteps - >>> Проверяю, что в таблице есть запись: Email='test2@protei.ru', Имя='Анна', Пол='Женский'
+12:27:59 INFO  steps.DataSteps - >>> Фактическая строка в таблице: 'test2@protei.ru Анна Женский 1.1, 1.2 2.3'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что в таблице есть запись:&amp#27;[0m         &amp#27;[90m# steps.DataSteps.checkTable(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email           | Имя  | Пол     |
+    | test2@protei.ru | Анна | Женский |
+12:27:59 INFO  hooks.Hooks - >>> Закрываю браузер
+]]></system-out>
+  </testcase>
+  <testcase name="Только чекбокс 1.2" classname="Добавление данных" time="2.066">
+    <system-out><![CDATA[
+Сценарий: Только чекбокс 1.2                          &amp#27;[90m# src/test/resources/features/data.feature:80&amp#27;[0m
+12:27:59 INFO  hooks.Hooks - >>> Запускаю браузер
+12:28:00 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
+  &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                   &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:28:00 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'test'
+  &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:28:00 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:28:00 INFO  steps.DataSteps - >>> Заполняю форму: Email='test@protei.ru', Имя='Сергей', Пол='Мужской', Выбор1='1.2', Выбор2='2.1'
+12:28:01 INFO  steps.DataSteps - >>> Фактическое значение поля dataName: 'Сергей'
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mзаполнить форму:&amp#27;[0m                                  &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email          | Имя    | Пол     | Выбор 1 | Выбор 2 |
+    | test@protei.ru | Сергей | Мужской | 1.2     | 2.1     |
+12:28:01 INFO  steps.DataSteps - >>> Нажимаю кнопку Добавить
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Добавить&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
+12:28:01 INFO  steps.DataSteps - >>> Проверяю, что в таблице есть запись: Email='test@protei.ru', Имя='Сергей', Пол='Мужской'
+12:28:01 INFO  steps.DataSteps - >>> Фактическая строка в таблице: 'test@protei.ru Сергей Мужской 1.2 2.1'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что в таблице есть запись:&amp#27;[0m         &amp#27;[90m# steps.DataSteps.checkTable(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email          | Имя    | Пол     |
+    | test@protei.ru | Сергей | Мужской |
+12:28:01 INFO  hooks.Hooks - >>> Закрываю браузер
+]]></system-out>
+  </testcase>
+  <testcase name="Имя из одного символа" classname="Добавление данных" time="1.832">
+    <system-out><![CDATA[
+Сценарий: Имя из одного символа                       &amp#27;[90m# src/test/resources/features/data.feature:92&amp#27;[0m
+12:28:01 INFO  hooks.Hooks - >>> Запускаю браузер
+12:28:02 INFO  steps.AuthSteps - >>> Открываю страницу: /workspaces/codespaces-blank/ui-tests/src/test/resources/qa-test.html
+  &amp#27;[32mДано &amp#27;[0m&amp#27;[32mоткрыть страницу авторизации&amp#27;[0m                   &amp#27;[90m# steps.AuthSteps.openAuthPage()&amp#27;[0m
+12:28:02 INFO  steps.AuthSteps - >>> Ввожу логин: 'test@protei.ru' и пароль: 'test'
+  &amp#27;[32mКогда &amp#27;[0m&amp#27;[32mввести логин &amp#27;[0m&amp#27;[32m&amp#27;[1m"test@protei.ru"&amp#27;[0m&amp#27;[32m и пароль &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m &amp#27;[90m# steps.AuthSteps.enterCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+12:28:02 INFO  steps.AuthSteps - >>> Нажимаю кнопку Вход
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Вход&amp#27;[0m                                &amp#27;[90m# steps.AuthSteps.clickAuthButton()&amp#27;[0m
+12:28:02 INFO  steps.DataSteps - >>> Заполняю форму: Email='test@protei.ru', Имя='Я', Пол='Мужской', Выбор1='1.1', Выбор2='2.2'
+12:28:03 INFO  steps.DataSteps - >>> Фактическое значение поля dataName: 'Я'
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mзаполнить форму:&amp#27;[0m                                  &amp#27;[90m# steps.DataSteps.fillForm(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email          | Имя | Пол     | Выбор 1 | Выбор 2 |
+    | test@protei.ru | Я   | Мужской | 1.1     | 2.2     |
+12:28:03 INFO  steps.DataSteps - >>> Нажимаю кнопку Добавить
+  &amp#27;[32mИ &amp#27;[0m&amp#27;[32mнажать кнопку Добавить&amp#27;[0m                            &amp#27;[90m# steps.DataSteps.clickAddButton()&amp#27;[0m
+12:28:03 INFO  steps.DataSteps - >>> Проверяю, что в таблице есть запись: Email='test@protei.ru', Имя='Я', Пол='Мужской'
+12:28:03 INFO  steps.DataSteps - >>> Фактическая строка в таблице: 'test@protei.ru Я Мужской 1.1 2.2'
+  &amp#27;[32mТогда &amp#27;[0m&amp#27;[32mпроверить, что в таблице есть запись:&amp#27;[0m         &amp#27;[90m# steps.DataSteps.checkTable(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Email          | Имя | Пол     |
+    | test@protei.ru | Я   | Мужской |
+12:28:03 INFO  hooks.Hooks - >>> Закрываю браузер
+]]></system-out>
   </testcase>
 </testsuite>

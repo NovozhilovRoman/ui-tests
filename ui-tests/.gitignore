@@ -1,5 +1,7 @@
 target/
 .allure/
-*.iml
+allure-results/
+.vscode/
 .idea/
+*.iml
 *.log

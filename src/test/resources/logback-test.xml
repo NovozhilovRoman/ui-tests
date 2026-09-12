@@ -1,0 +1,19 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss} %-5level %logger{20} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.openqa.selenium" level="OFF"/>
+    <logger name="io.github.bonigarcia" level="OFF"/>
+    <logger name="org.apache" level="OFF"/>
+    <logger name="io.netty" level="OFF"/>
+
+    <logger name="steps" level="INFO"/>
+    <logger name="hooks" level="INFO"/>
+
+    <root level="WARN">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
